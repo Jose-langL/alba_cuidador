@@ -1,0 +1,41 @@
+name: alba_cuidador
+description: "Aplicación móvil para el módulo del cuidador de adultos mayores - Proyecto ALBA+"
+publish_to: 'none' # Evita que se publique por error en pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0' # Asegura compatibilidad con versiones modernas de Dart
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- GESTIÓN DE ESTADO Y ENRUTAMIENTO ---
+  provider: ^6.1.2
+  go_router: ^14.2.0
+
+  # --- FIREBASE CORE & SERVICES ---
+  firebase_core: ^3.15.2
+  cloud_firestore: ^5.2.0
+  firebase_auth: ^5.1.1
+  firebase_storage: ^12.1.0
+
+  # --- UTILIDADES Y UI ---
+  intl: ^0.19.0 # Para formato de fechas y horas (vital para medicamentos y alarmas)
+  shared_preferences: ^2.3.2 # Para persistencia local simple de preferencias
+  flutter_local_notifications: ^17.2.2 # Necesario para el módulo de alarmas locales (Dev 6)
+  qr_flutter: ^4.1.0 # Necesario para generar códigos QR (Dev 7)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # --- CONFIGURACIÓN DE ASSETS ---
+  assets:
+    - assets/images/
+    - assets/icons/

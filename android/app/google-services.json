@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "192545661453",
+    "project_id": "alba-cuidador",
+    "storage_bucket": "alba-cuidador.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192545661453:android:396041fb487ce58e25eb44",
+        "android_client_info": {
+          "package_name": "com.alba.alba_cuidador"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSoRZKHks_5BGPdRhrxAUnlGz0TPjnMFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
